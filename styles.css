@@ -2,12 +2,13 @@
     display: none;
 }
 
+/*Estilo de la web*/
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
 	color: white;
-	text-shadow: 3px, 3px, 10px black;
+	text-shadow: 3px 3px 10px black;
 	
 	background-image: url(Fondo.jpg);
 	background-size: cover;
@@ -16,10 +17,12 @@ body {
 	background-attachment: fixed;
 }
 
+/*Cant. de pixeles debajo de titulos*/
 h1 {
     margin-bottom: 20px;
 }
 
+/*Organizar botones*/
 .categories {
     display: flex;
     justify-content: center;
@@ -27,6 +30,7 @@ h1 {
     margin-bottom: 30px;
 }
 
+/*Diseño de botones*/
 .category-btn {
     padding: 12px 25px;
     background: #333;
@@ -36,24 +40,13 @@ h1 {
     cursor: pointer;
     font-size: 18px;
 }
+
+/*Cambiar tono al pasar cursor*/
 .category-btn:hover {
     background: #555;
 }
 
-.gallery-section {
-    display: none;
-}
-
-.back-btn {
-    margin-bottom: 15px;
-    padding: 8px 15px;
-    background: #222;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
+/*Organizar imagenes*/
 .gallery {
     display: flex;
     justify-content: center;
@@ -61,8 +54,9 @@ h1 {
     gap: 20px;
 }
 
+/*Relación de imagenes*/
 .gallery img {
-    width: 280px;
+    width: auto;
     height: auto;
     border-radius: 10px;
 }

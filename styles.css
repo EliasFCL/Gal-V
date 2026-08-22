@@ -46,6 +46,11 @@ h1 {
     background: #555;
 }
 
+.gallery-section {
+    display: none;
+}
+
+
 /*Organizar imagenes*/
 .gallery {
     display: flex;

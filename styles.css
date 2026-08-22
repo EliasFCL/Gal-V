@@ -7,14 +7,14 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 20px;
-	color: white;
-	text-shadow: 3px, 3px, 10px black;
-	
-	background-image: url(Fondo.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*Cant. de pixeles debajo de titulos*/
@@ -55,15 +55,46 @@ h1 {
 .gallery {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    width: 100%;
 }
 
 /*Relación de imagenes*/
+/*En PC*/
 .gallery img {
-    width: 20px;
-    height: auto;
+    width: 250px;
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+/*En celulares */
+@media (max-width: 600px) {
+    .gallery {
+        gap: 15px;
+    }
+
+    .gallery img {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .categories {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .category-btn {
+        width: 90%;
+        max-width: 300px;
+    }
 }
 
 /*Fondo oscurecido del modal*/

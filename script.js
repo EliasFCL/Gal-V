@@ -32,7 +32,8 @@ const imageDates = {
     "Otro/Pennywise.jpeg": "20/01/2026",
     "Otro/ZamaelGG-Banner.jpeg": "08/02/2026",
     "Otro/RascaBanner.jpeg": "17/11/2024",
-	"Games/Zamael-Hogwards.jfif": "13/07/2026"
+	"Games/Zamael-Hogwards.jfif": "13/07/2026",
+	"Games/Ghost of Tsushima.jfif": "28/10/2026"
 };
 
 //Mostrar sección al hacer clic

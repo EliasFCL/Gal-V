@@ -4,7 +4,7 @@ const backButtons = document.querySelectorAll(".back-btn");
 
 // Fechas de creación de las imágenes
 const imageDates = {
-    "Anime/Bardock UI.jpg": "19/11/2024",
+    "Anime/Bardock ui.jpg": "19/11/2024",
     "Anime/Moro UI.jpg": "17/11/2024",
     "Anime/Garou.jpg": "25/11/2024",
     "Anime/Goku and Vegeta.png": "14/03/2023",
@@ -14,6 +14,7 @@ const imageDates = {
     "Anime/Sukuna.jpg": "12/06/2022",
     "Anime/Maki Zenin.jpg": "01/02/2026",
     "Anime/SSJ's.jpg": "28/02/2026",
+	"Anime/Gaara.png": "01/11/2026",
     "Games/RE3.jpg": "06/10/2026",
     "Games/Sekiro.jpg": "13/09/2026",
     "Games/Red dead.png": "19/10/2025",
@@ -23,6 +24,8 @@ const imageDates = {
     "Games/Lies of P.png": "09/11/2025",
     "Games/Monster Hunter.png": "25/11/2022",
     "Games/Dark Souls.png": "24/04/2026",
+		"Games/Zamael-Hogwards.jfif": "13/07/2026",
+	"Games/Ghost of Tsushima.jfif": "28/10/2026",
     "Otro/Claire.jpg": "19/06/2023",
     "Otro/Zamael.jpg": "22/03/2025",
     "Otro/Ben Really.png": "23/08/2023",
@@ -32,8 +35,6 @@ const imageDates = {
     "Otro/Pennywise.jpeg": "20/01/2026",
     "Otro/ZamaelGG-Banner.jpeg": "08/02/2026",
     "Otro/RascaBanner.jpeg": "17/11/2024",
-	"Games/Zamael-Hogwards.jfif": "13/07/2026",
-	"Games/Ghost of Tsushima.jfif": "28/10/2026"
 };
 
 //Mostrar sección al hacer clic

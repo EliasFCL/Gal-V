@@ -35,6 +35,7 @@ const imageDates = {
     "Otro/Pennywise.jpeg": "20/01/2026",
     "Otro/ZamaelGG-Banner.jpeg": "08/02/2026",
     "Otro/RascaBanner.jpeg": "17/11/2024",
+	"Games/Mavuika.jpeg": "23/11/2026",
 };
 
 //Mostrar sección al hacer clic
